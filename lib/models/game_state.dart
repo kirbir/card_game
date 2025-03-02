@@ -1,8 +1,7 @@
 enum GameState {
-  initial, 
-  dealingFaceDown,
-  dealingFaceUp,
+  initial,
+  dealing,
   playerTurn,
-  computerTurn,
+  player2Turn,
   gameOver
 }
